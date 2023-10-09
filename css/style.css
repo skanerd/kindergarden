@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.body {
+  width: 100vw;
+  margin: 0;
+  background-color: #f6e8c3;
+}
+.main {
+  width: 1280px;
+  margin: auto;
+}
+.top {
+  height: 12rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  background-color: rgba(60, 99, 167, 0.9);
+}
+.logo {
+  display: flex;
+}
+.logo img {
+  margin: 0 2rem 0;
+  width: 16rem;
+}
+.logo__text {
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 40px;
+}
+.logo__text span {
+  font-size: 25px;
+}
+
+.more {
+  margin-left: 75%;
+}
+
+/* navigation */
+
+.navigation {
+  width: 100%;
+  height: 72px;
+}
+
+/* drop down */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 16px;
+}
+
+.dropbtn_icon {
+  font-family: "Material Icons";
+  text-align: center;
+}
+.dropbtn {
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(1, 1, 1, 0);
+  font-weight: 400;
+  font-family: "Kiwi Maru", serif;
+  color: #ffffff;
+  /* padding : 12px; */
+  width: 160px;
+  height: 72px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 400;
+  background-color: #fff;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  display: block;
+  text-decoration: none;
+  color: rgb(37, 37, 37);
+  font-size: 14px;
+  padding: 12px 20px;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
+.dropdown-content a:hover {
+  border-radius: 5px;
+  background-color: rgba(1, 1, 1, 0.5);
+  color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* 区切り */
+
+.container__top {
+  display: flex;
+  margin-bottom: 0.5%;
+}
+.container__middle {
+  display: flex;
+  margin-bottom: 0.5%;
+}
+.container__bottom {
+  display: flex;
+}
+
+/* container__top */
+
+.main_img {
+  width: 40%;
+  height: 400px;
+}
+.main_img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+/* notice */
+
+.notice {
+  margin: 0 0.5%;
+  width: 29%;
+  height: 400px;
+  border-radius: 20px;
+  background-color: #33acc1;
+  padding-left: 1rem;
+}
+.notice__content ul {
+  padding-left: 0.5rem;
+}
+.notice__content ul li {
+  padding-bottom: 0.5rem;
+  list-style: none;
+}
+.notice__tell {
+  margin-left: 10%;
+}
+
+/* calender */
+
+.calender {
+  width: 30%;
+  height: 400px;
+  border-radius: 20px;
+  background-color: #a6bae9;
+}
+.sun {
+  color: red;
+}
+.sat {
+  color: blue;
+}
+
+.calender table {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+.calender__info {
+  text-align: left;
+  margin-left: 1rem;
+}
+
+/* container__middle */
+
+.album {
+  width: 40%;
+  height: 300px;
+  border-radius: 20px;
+  background-color: #fe888f;
+  padding-left: 1rem;
+}
+.album img {
+  width: 150px;
+  height: 100px;
+}
+.album__content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.meal {
+  margin: 0 0.5%;
+  width: 29%;
+  height: 300px;
+  border-radius: 20px;
+  background-color: #fec509;
+  padding-left: 1rem;
+}
+
+.event {
+  width: 30%;
+  height: 300px;
+  border-radius: 20px;
+  background-color: #b0ec0d;
+  padding-left: 1rem;
+}
+
+/* container__bottom */
+
+.link {
+  width: 40%;
+  height: 300px;
+  border-radius: 20px;
+  background-color: #bda382;
+  padding-left: 1rem;
+}
+.link p {
+  padding: 1rem;
+}
+.special {
+  margin-left: 0.5%;
+  width: 59.5%;
+  height: 300px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  padding-left: 1rem;
+}
